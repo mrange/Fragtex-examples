@@ -1,0 +1,10 @@
+{
+  // Example of a small scene
+  "name": "Circle scene",
+  "passes": [
+    {
+      "name"            : "circle",
+      "fragment-source" : "circle.glsl"
+    }
+  ]
+}
