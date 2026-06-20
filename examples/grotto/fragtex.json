@@ -1,0 +1,20 @@
+{
+  // Example of a grotto scene with some sound
+  "name"        : "Grotto",
+  "description" : "Amazing music by amazing pestis",
+  "credits"     : ["pestis", "mrange"],
+  "sound" : {
+    "fragment-source" : "sound.glsl"
+  },
+  "scenes": [
+    {
+      "name"  : "main",
+      "passes": [
+        {
+          "name"            : "grotto",
+          "fragment-source" : "grotto.glsl"
+        }
+      ]
+    }
+  ]
+}
